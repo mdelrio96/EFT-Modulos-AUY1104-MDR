@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.json
+crash.log
+crash.*.log
+
+# Variables locales (NUNCA subir secretos)
+*.tfvars
+!terraform.tfvars.example
+
+# IDE
+.idea/
+.vscode/
